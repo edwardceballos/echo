@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <AssemblyName>Mvct.Sisfv.Service.Echo</AssemblyName>
+        <RootNamespace>Mvct.Sisfv.Service.Echo</RootNamespace>
+        <Company>MVCT SISFV</Company>
+        <Product>Mvct.Sisfv.Service.Echo</Product>
+        <AssemblyVersion>1</AssemblyVersion>
+        <FileVersion>1</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Faker.NETCore" Version="1.0.2" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+</Project>
