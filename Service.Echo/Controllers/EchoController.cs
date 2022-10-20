@@ -27,7 +27,7 @@ namespace Mvct.Sisfv.Service.Echo.Controllers
     public class StandardResponse
     {
         public long ServerTimeStamp { get; set; } 
-        public string Message { get; set; }
+        public string? Message { get; set; }
         public bool IsSuccess { get; set; }
     }
 }
