@@ -30,7 +30,7 @@ components:
         - name: CONFIGURATION
           value: Debug
         - name: STARTUP_PROJECT
-          value: app.csproj
+          value: Services.Echo.csproj
         - name: ASPNETCORE_ENVIRONMENT
           value: Development
       endpoints:
